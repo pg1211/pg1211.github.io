@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import { NotFound } from './pages/NotFound'
 import './App.css'
 
 
@@ -15,6 +16,7 @@ function App() {
                                 </section>
                               </>} 
         />
+        {/* <Route path="/*" element={<NotFound />} /> */}
         {/* new routes go here */}
       </Routes>
     </BrowserRouter>
