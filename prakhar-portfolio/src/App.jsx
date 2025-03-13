@@ -9,7 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<>
                                 <h1 className="text-3xl font-bold underline">Here's a header</h1>
-                                <section className="bg-emerald-600 p-4 m-3">
+                                <section className="bg-emerald-200 p-4 m-3">
                                   <p className="text-indigo-900 text-center">
                                     Here's some content going in a section underneath that header
                                   </p>
